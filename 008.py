@@ -28,4 +28,7 @@ def multiply_digits(n):
         multiplied.append(num)
     return multiplied
 
-print multiply_digits(the_num, 5)
+
+def max_dig(n):
+    nums = multiply_digits(n)
+    return max(nums)
